@@ -1,3 +1,25 @@
+# Coding Club Data Visualisation Tutorial 3
+
+## The aim of this tutorial is to quantify species' geographical range and visualise the impact of the Australian 'Black Summer' on invertebrates.
+
+You can check out the full tutorial online here https://eddatascienceees.github.io/tutorial-AmeliaYoung/
+
+#### If you have any questions about completing this tutorial, please contact us on ourcodingclub@gmail.com
+
+Check out https://ourcodingclub.github.io/workshop/ to learn how you can get involved!
+
+#### <a href="https://www.surveymonkey.co.uk/r/X7VHQ6S">We would love to hear your feedback on the tutorial, whether you did it at a Coding Club workshop or online!</a>
+
+
+
+
+
+
+
+
+
+
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6eRt7-90)
 # tutorial-instructions
 ## Instructions for Tutorial Assignment
