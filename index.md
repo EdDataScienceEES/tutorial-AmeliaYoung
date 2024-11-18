@@ -225,8 +225,7 @@ __Steps:__
 
 - ```st_as_sf:``` Converts each tibble into an ```sf``` (simple feature) object. Uses the longitude and latitude columns for spatial geometry. Assigns the crs (coordinate reference system) to WGS84 (EPSG:4326), which is a global latitude/longitude system.
 
-
--```concaveman```: Computes a concave polygon that encloses the points in the sf object. Resulting in each row in the ```concave_sf``` column containing a polygon geometry as an sf object.
+- ```concaveman```: Computes a concave polygon that encloses the points in the sf object. Resulting in each row in the ```concave_sf``` column containing a polygon geometry as an sf object.
 
 
 

@@ -6,6 +6,13 @@
 # Data Visualisation: Concave Hulls and Hex Maps
 # Quantifying species range and visualising the impact of the Australian 'Black Summer'
 
+# Workflow ----
+# 1 - Load in the data
+# 2 - Filter the data to include observations of interest
+# 3 - Prepare the data for plotting 
+# 4 - Ploting concave hull maps and hex maps 
+# 5 - Add figure captions and save within GitHub repository 
+
 
 # Read in data ----
 invertebrates <- read.csv("/Users/mimi/Ecology/Tutorial/Data/invertebrate.data.03.2023.csv")
