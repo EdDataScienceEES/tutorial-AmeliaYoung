@@ -4,6 +4,34 @@
 
 You can check out the full tutorial online here https://eddatascienceees.github.io/tutorial-AmeliaYoung/
 
+
+----
+
+Following on from the <a href="https://ourcodingclub.github.io/tutorials/data-vis-2/" target="_blank">Data Visualisation: Part 2</a> tutorial, we will now be exploring alternative ways to visualise data through _concave hull maps_, and _hexagonal grid maps._
+The possibilities for data visualisation are limitless, and this tutorial aims to equip you with two more powerful techniques for your toolkit!
+
+<a name="section1"></a>
+
+### 1. Introduction
+The 2019–2020 Australian wildfires, known as the "Black Summer" fires, inflicted widespread devastation on natural habitats and native biodiversity. This tutorial will use a dataset from [CSIRO, Data Access Portal](https://data.csiro.au/collection/csiro:56679), to visualise Invertebrates' spatial distribution (concave hull maps), and geographical spread (hexagonal grid maps), before and after the Black Summer fires. The impact on invertebrates, (insects, molluscs, spiders), is often overlooked after natural disasters. Which makes open access diversity data even more essential in understanding potential trends, so scientists and conservationists can identify which species or regions face the most significant threats, helping to prioritise population growth. 
+
+_Concave Hull Maps are minimum bounding polygons that tightly enclose points. We aim to create compact polygons around species' occurrence points, revealing insights into their spatial distribution across the landscape_
+
+
+<a name="prerequisites"></a>
+
+### 1.1 Prerequisites
+Whilst this tutorial is of basic to intermediate difficulty, we recommend that learners go back and first complete the <a href="https://ourcodingclub.github.io/tutorials/datavis/" target="_blank">Data Visualisation: Part 1</a> tutorial and <a href="https://ourcodingclub.github.io/tutorials/data-vis-2/" target="_blank">Data Visualisation: Part 2</a> tutorial.
+
+To get the most out of this tutorial, you should have a basic understanding of the following:
+
+
+- **Data manipulation with `dplyr`:** Transforming, cleaning, and filtering data.  
+
+- **Data visualisation with `ggplot2`:** Creating plots to explore and communicate data patterns.  
+
+----
+
 #### If you have any questions about completing this tutorial, please contact us on ourcodingclub@gmail.com
 
 Check out https://ourcodingclub.github.io/workshop/ to learn how you can get involved!
