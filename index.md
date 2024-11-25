@@ -579,6 +579,10 @@ __Millennium Drought (1997-2009)__ – One of the most severe droughts in Austra
 
 ### Answer:
 
+<details>
+  <summary> Click here for the answer</summary>
+
+
 ```r
 
 # Filter all invertebrates observed in 1996 and 2010, separately
@@ -686,11 +690,12 @@ head(oz_grid_2010)
 
 ```
 
-<center><img src="{{ site.baseurl }}/Figures/combined_plot_challenge.png" alt="Img"></center>
+
 <center><img src="Figures/combined_plot_challenge.png" alt="Img"></center>
 
 Looks like it also had a negative impact on invertebrate populations!
 
+</details>
 
 <hr>
 <hr>
