@@ -54,7 +54,7 @@ The possibilities for data visualisation are limitless, and this tutorial aims t
 ### 1. Introduction
 The 2019–2020 Australian wildfires, known as the "Black Summer" fires, inflicted widespread devastation on natural habitats and native biodiversity. This tutorial will use a dataset from [CSIRO, Data Access Portal](https://data.csiro.au/collection/csiro:56679), to visualise Invertebrates' spatial distribution (concave hull maps), and geographical spread (hexagonal grid maps), before and after the Black Summer fires. The impact on invertebrates, (insects, molluscs, spiders), is often overlooked after natural disasters. Which makes open access diversity data even more essential in understanding potential trends, so scientists and conservationists can identify which species or regions face the most significant threats, helping to prioritise population growth. 
 
-_Concave Hull Maps are minimum bounding polygons that tightly enclose points. We aim to create compact polygons around species' occurrence points, revealing insights into their spatial distribution across the landscape_
+_Concave Hull Maps are minimum bounding polygons that tightly enclose points. We aim to create compact polygons around species' occurrence points, revealing insights into their spatial distribution across the landscape._
 
 
 <a name="prerequisites"></a>
@@ -76,7 +76,7 @@ _For more on ```ggplot2```, read the official <a href="https://www.rstudio.com/w
 <a name="data"></a>
 
 ### 1.2 Overview of the Data
-The dataset is based on studies that investigated the impact of the Black Summer bushfires and is designed to support future modelling and impact assessments. The dataset also has a 'sister' dataset of plant observations for the same purpose.
+The dataset is based on studies that investigated the impact of the Black Summer bushfires and is designed to support future modelling and impact assessments. The dataset also has a 'sister' dataset of plant observations for the same purpose, [vascularplant.data](https://data.csiro.au/collection/csiro:56679).
 
 The data consists of individual observations, recorded from 1634 onwards. Each row of the dataset represents a single sighting, recorded at a location, and includes information such as the invertebrates' scientific name, class, family, and year of sighting. There are 340,059 observations. The data can be summarised as follows: 
 
@@ -419,7 +419,7 @@ intersect_2020 <- st_intersects(inverts_2020_sf, oz_grid)
 
 ### 4.2 Using Tibbles (again!)
 
-We've already utilised tibbles in this tutorial, here we use them again!
+We've already utilised tibbles in this tutorial in <a href="#nesting"> - 3.1 Nesting Data</a>, here we use them again!
 
 ```r
 
@@ -575,10 +575,17 @@ We also hope we've demonstrated the power of open science and data-driven method
 If you are keen for more practice, try this challenge!
 
 Try using a hex map to investigate another natural disaster, and explore whether it had similar effects on invertebrate populations.
+
+
 For example: __Droughts__
+
+
 Impact: Long periods of drought have significant consequences for agriculture, water resources, and biodiversity. Drought can lead to desertification, reduced freshwater availability, and habitat loss for wildlife.
-__Notable Events:__
-__Millennium Drought (1997-2009)__ – One of the most severe droughts in Australian history, particularly affecting southern and eastern Australia.
+
+
+Notable Events: __Millennium Drought (1997-2009)__ – One of the most severe droughts in Australian history, particularly affecting southern and eastern Australia.
+
+
 
 
 ### Answer:
