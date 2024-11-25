@@ -1,7 +1,9 @@
 
 ---
-#### title: "Creation of a new tutorial"
-output: html_document
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
 css: Misc/style.css
 ---
 
@@ -10,7 +12,7 @@ css: Misc/style.css
   <h2>CONCAVE HULLS AND HEXAGONAL GRID MAPS</h2>
 </div>
 
-_Created by Amelia Young - November 2024_
+_Created by B205772 - November 2024_
 
 --------
 
