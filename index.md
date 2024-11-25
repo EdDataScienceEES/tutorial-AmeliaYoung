@@ -109,7 +109,7 @@ Make a new script file through clicking `File/ New File/ R Script`, give it a ti
 
 ### 2.1 Loading The Data
 
-Start by copying the following code into your script to load the data.
+Start by copying the following code into your script to set the working directory, add the libraries, and load the dataset.
 
 ```r 
 ## Data Visualisation: Concave Hulls and hexagonal grid maps
@@ -136,7 +136,7 @@ library(patchwork) # for arranging plots
 
 ### 2.2 Cleaning and Filtering the data
 
-For the purpose of this exercise, we’re going to filter out observations not on mainland Australia or Tasmania, as well as any species with fewer than 4 observations. 
+For the purpose of this exercise, we’re going to filter out observations not on mainland Australia or Tasmania, as well as any species with fewer than 4 observations. Which can be done as follows:
 
 ```r
 # Filtering Data ----
@@ -163,7 +163,11 @@ subset_mainland <- inverts_subset %>%
 
 ### 3. Exploratory Data Analysis and Concave Hull Maps
 
-Great! Now for the fun part! We are ready to show the geographic range of these data. However, having almost 51,000 species makes it challenging to visualise all data points and concave hulls at once. Instead we will be randomly selecting one invertebrate species from each __class,__ and using ```set.seed``` to make sure we all get the same results. Enter ```?set.seed``` into your terminal for more information on random number generation. 
+Great! Now for the fun part! We are ready to show the geographic range of these data. However, having almost 51,000 species makes it challenging to visualise all data points and concave hulls at once. Instead we will be randomly selecting one invertebrate species from each __class,__ and using ```set.seed``` to make sure we all get the same results. 
+
+_The ```set.seed()``` function in R sets the starting point for random number generation. This ensures that random processes (like sampling or generating random numbers) produce the same results every time the code is run. By fixing the seed, you make your results reproducible, which is particularly useful in research and debugging._
+
+Enter ```?set.seed``` into your terminal for more information on random number generation. 
 
 
 <a name="nesting"></a>
@@ -186,7 +190,7 @@ inverts_nest %>%
   print(n = 6)
 ```
 
-The code above also prints the first 6 rows of ```inverts_nest``` to show how the ```coords``` column contains [nested tibbles](https://tidyr.tidyverse.org/articles/nest.html). 
+The code above also prints the first 6 rows of ```inverts_nest``` to show how the ```coords``` column contains [nested tibbles](https://tidyr.tidyverse.org/articles/nest.html). _A tibble in R is an extra user-friendly version of a data frame, provided by the tidyverse package. Tibbles are designed to make working with tabular data easier and more consistent, especially for programming and analysis._
 
 We also access the first of these tibbles using ```pluck```. -Try exploring this further by changing ```'1'``` to ```'2'```, ```'3'``` or ```'4'```!
 
