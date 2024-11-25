@@ -20,6 +20,17 @@ To get the most out of this tutorial, you should have a basic understanding of t
 
 - **Data visualisation with `ggplot2`:** Creating plots to explore and communicate data patterns.  
 
+
+### This tutorial will equip you with the following skills:
+
+- Loading and cleaning ecological data for analysis.
+- Generating spatial distributions of species using concave hulls.
+- Visualising and quantifying species populations using hexagonal grid maps.
+- Investigating the effects of natural disasters on biodiversity.
+
+We also hope to demonstrated the power of open science and data-driven methods in advancing ecological research and conservation efforts through education!!
+
+
 ----
 
 #### If you have any questions about completing this tutorial, please contact us on ourcodingclub@gmail.com
